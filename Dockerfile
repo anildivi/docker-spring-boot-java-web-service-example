@@ -1,5 +1,5 @@
 # Use an official OpenJDK runtime as a parent image
-FROM openjdk:8-jre-alpine
+FROM eclipse-temurin:21-jre
 
 # set shell to bash
 # source: https://stackoverflow.com/a/40944512/3128926
